@@ -1,30 +1,21 @@
 #Description
+------------
+
+## Reproducible build and binaries for SNAPHU Window 10 Version 
 --------------------------------------------------------------
+
 Compilation of x86 and x64 version for Window 10 of SNAPHU Version 1.4.2, 
-Statistical-Cost, Netowrk-Flow Algorithm for Phase Unwrapping
-Author: Curtis W. Chen
 
-Reproducible build and binaries for SNAPHU Window 10 Version 
-Under binding of Cmake and Visual Studio 16 2019 Licences 
-
-
-Copyright See LICENCE file
-
-
-
-#Credits
+## Credits
 -------------------------------------------------------------
 SNAPHU
 Statistical-Cost, Netowrk-Flow Algorithm for Phase Unwrapping
 Author: Curtis W. Chen
 Version 1.4.2, January 200
+Copyright See LICENCE file
+Build under binding of Cmake and Visual Studio 16 2019 Licences 
 
-Build for Win:
--------------------------------------------------------------
-# 2020.03.18  "Muhire Desire"  Cmake Visual Studio 16 2019
-
-
-#Task done:
+# Task done:
 -------------------------------------------------------------
 -Compilation of x86 and x64 version for window
 Binaries are respectively in bin folder.
@@ -36,7 +27,7 @@ copy snaphu-1.4.2_vc_win to C:\
 -Add path by commandline or manualy
 set PATH=%PATH%;C:\snaphu-1.4.2_vc_win\bin\x64
 
-#To re-build Visual Studio:
+# To re-build Visual Studio:
 -------------------------------------------------------------
 
 mkdir build
@@ -49,10 +40,6 @@ cmake --build build32 --config Release
 cmake --build build64 --config Release
 
 
-#Reproducible build and binaries for SNAPHU Window 10 Version : 
---------------------------------------------------------------
-
-Build under License binding of Cmake and Visual Studio 16 2019 Licences 
 
 
 #Else The MIT License Copyright 2020 "Muhire Desire"  
