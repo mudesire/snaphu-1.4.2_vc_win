@@ -5,6 +5,7 @@
 --------------------------------------------------------------
 
 Compilation of x86 and x64 version for Window 10 of SNAPHU Version 1.4.2, 
+bug reports and feedback are appreciated.
 
 ## Credits
 -------------------------------------------------------------
@@ -35,10 +36,9 @@ cd build
 mkdir build86
 mkdir build64
 cmake -G "Visual Studio 16 2019" -A Win32 -S "Replace path to /snaphu-1.4.2_vc_win/src" -B "build32"
-cmake -G "Visual Studio 16 2019" -A x64 -S "C:/Users/7/Documents/GitHub/snaphu/snaphu-1.4.2_vc_win/src" -B "build64"
+cmake -G "Visual Studio 16 2019" -A x64 -S "Replace path to /snaphu-1.4.2_vc_win/src" -B "build64"
 cmake --build build32 --config Release
 cmake --build build64 --config Release
-
 
 
 
